@@ -1,0 +1,59 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+  - title: Sidebar
+    product: Dexflow Guide
+    version: 1.0
+    folders:
+      - title:
+        output: pdf
+        type: frontmatter
+        folderitems:
+          - title:
+            url: /titlepage.html
+            output: pdf
+            type: frontmatter
+          - title:
+            url: /tocpage.html
+            output: pdf
+            type: frontmatter
+
+      - title: Getting Started
+        output: web, pdf
+        folderitems:
+          - title: Installation
+            url: /guide_installation.html
+            output: web, pdf
+
+          - title: Sample 1
+            url: /guide_installation.html
+            output: web, pdf
+
+          - title: Sample 2
+            url: /guide_installation.html
+            output: web, pdf
+
+          - title: Sample 3
+            url: /guide_installation.html
+            output: web, pdf
+
+      - title: Creating Maps
+        output: web, pdf
+
+        folderitems:
+          - title: Sample 4
+            url: /guide_installation.html
+            output: web, pdf
+
+          - title: Sample 5
+            url: /guide_installation.html
+            output: web, pdf
+
+          - title: Sample 6
+            url: /guide_installation.html
+            output: web, pdf
+
+          - title: Sample 7
+            url: /guide_installation.html
+            output: web, pdf
+# Copyright 2021 Google LLC
