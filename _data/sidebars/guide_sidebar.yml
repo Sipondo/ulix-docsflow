@@ -25,35 +25,27 @@ entries:
             url: /guide_installation.html
             output: web, pdf
 
-          - title: Sample 1
-            url: /guide_installation.html
+          - title: Running Dexflow
+            url: /guide_running_dexflow.html
             output: web, pdf
 
-          - title: Sample 2
-            url: /guide_installation.html
-            output: web, pdf
+      # - title: Creating Maps
+      #   output: web, pdf
 
-          - title: Sample 3
-            url: /guide_installation.html
-            output: web, pdf
+      #   folderitems:
+      #     - title: Sample 4
+      #       url: /guide_installation.html
+      #       output: web, pdf
 
-      - title: Creating Maps
-        output: web, pdf
+      #     - title: Sample 5
+      #       url: /guide_installation.html
+      #       output: web, pdf
 
-        folderitems:
-          - title: Sample 4
-            url: /guide_installation.html
-            output: web, pdf
+      #     - title: Sample 6
+      #       url: /guide_installation.html
+      #       output: web, pdf
 
-          - title: Sample 5
-            url: /guide_installation.html
-            output: web, pdf
-
-          - title: Sample 6
-            url: /guide_installation.html
-            output: web, pdf
-
-          - title: Sample 7
-            url: /guide_installation.html
-            output: web, pdf
+      #     - title: Sample 7
+      #       url: /guide_installation.html
+      #       output: web, pdf
 # Copyright 2021 Google LLC
