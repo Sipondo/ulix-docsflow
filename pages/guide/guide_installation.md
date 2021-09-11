@@ -25,7 +25,7 @@ Whether you just want to play around with the framework or are on the start of y
 I personally recommend making a `projects` folder somewhere nice, such as in your `documents` folder, and extracting Dexflow to a folder named after your project (e.g. `eclipse` if that were to be the name of your project). Just as with Essentials you are going to modify an existing project and thus will need multiple instances of Dexflow for multiple projects.
 
 ### 4. Download the editor (LDTK)
-The Level Designer Toolkit, or LDTK in short, is the program you'll be crafting your game in. This program needs to be installed, so just follow the installer and you should be good.
+[The Level Designer Toolkit, or LDTK in short](https://ldtk.io/), is the program you'll be crafting your game in. This program needs to be installed, so just follow the installer and you should be good.
 
 {% include links.html %}
 

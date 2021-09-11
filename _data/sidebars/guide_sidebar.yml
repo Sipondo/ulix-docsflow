@@ -29,23 +29,19 @@ entries:
             url: /guide_running_dexflow.html
             output: web, pdf
 
-      # - title: Creating Maps
-      #   output: web, pdf
+      - title: Creating Maps
+        output: web, pdf
 
-      #   folderitems:
-      #     - title: Sample 4
-      #       url: /guide_installation.html
-      #       output: web, pdf
+        folderitems:
+          - title: Opening LDTK for the first time
+            url: /guide_opening_ldtk.html
+            output: web, pdf
 
-      #     - title: Sample 5
-      #       url: /guide_installation.html
-      #       output: web, pdf
+          - title: The LDTK Cheat Sheet
+            url: /guide_ldtk_cheat_sheet.html
+            output: web, pdf
 
-      #     - title: Sample 6
-      #       url: /guide_installation.html
-      #       output: web, pdf
-
-      #     - title: Sample 7
-      #       url: /guide_installation.html
-      #       output: web, pdf
+          - title: Navigating LDTK
+            url: /guide_navigating_ldtk.html
+            output: web, pdf
 # Copyright 2021 Google LLC
