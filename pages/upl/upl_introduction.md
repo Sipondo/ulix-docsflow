@@ -5,12 +5,12 @@ tags: [getting_started, upl]
 sidebar: guide_sidebar
 permalink: upl_introduction.html
 folder: upl
-summary: "Introduces the scripting language of Ulix Dexflow: UPL"
+summary: "Introduces the actions language of Ulix Dexflow: UPL"
 ---
 
 ## Ulix Parsed Language
 
-Ulix Parsed Language (UPL) is the way of scripting actions in Ulix Dexflow. The language was designed to be as simple as possible,
+Ulix Parsed Language (UPL) is the way of defining actions in Ulix Dexflow. The language was designed to be as simple as possible,
 making it easy to read, write and use. This guide will introduce you to everything from how to say "Hello!" to creating entire 
 sequences of actions depending on player choices throughout the game!
 
