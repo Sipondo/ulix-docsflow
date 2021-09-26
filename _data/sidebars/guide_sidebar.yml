@@ -81,11 +81,177 @@ entries:
             url: /upl_users_objects.html
             output: web, pdf
 
-      - title: UPL Documentation
+      - title: UPL Documentation A-L
         output: web, pdf
-
         folderitems:
           - title: AddItem
-            url: /docs_additem.html
+            url: /upl_docs_additem.html
+            output: web, pdf
+
+          - title: AddMember
+            url: /upl_docs_addmember.html
+            output: web, pdf
+
+          - title: Ask
+            url: /upl_docs_ask.html
+            output: web, pdf
+
+          - title: Battle
+            url: /upl_docs_battle.html
+            output: web, pdf
+
+          - title: CheckCollision
+            url: /upl_docs_checkcollision.html
+            output: web, pdf
+
+          - title: Cinematic
+            url: /upl_docs_cinematic.html
+            output: web, pdf
+
+          - title: Concat
+            url: /upl_docs_concat.html
+            output: web, pdf
+
+          - title: CountItem
+            url: /upl_docs_countitem.html
+            output: web, pdf
+
+          - title: Debug
+            url: /upl_docs_debug.html
+            output: web, pdf
+
+          - title: Encounter
+            url: /upl_docs_encounter.html
+            output: web, pdf
+
+          - title: Face
+            url: /upl_docs_face.html
+            output: web, pdf
+
+          - title: Fade
+            url: /upl_docs_fade.html
+            output: web, pdf
+
+          - title: FlushTiles
+            url: /upl_docs_flushtiles.html
+            output: web, pdf
+
+          - title: GetEntities
+            url: /upl_docs_getentities.html
+            output: web, pdf
+
+          - title: GetTile
+            url: /upl_docs_gettile.html
+            output: web, pdf
+
+          - title: IsEntity
+            url: /upl_docs_isentity.html
+            output: web, pdf
+
+          - title: Jump
+            url: /upl_docs_jump.html
+            output: web, pdf
+
+          - title: Length
+            url: /upl_docs_length.html
+            output: web, pdf
+
+      - title: UPL Documentation M-Z
+        output: web, pdf
+        folderitems:
+          - title: Manhattan
+            url: /upl_docs_manhattan.html
+            output: web, pdf
+
+          - title: Move
+            url: /upl_docs_move.html
+            output: web, pdf
+
+          - title: MoveTo
+            url: /upl_docs_moveto.html
+            output: web, pdf
+
+          - title: Music
+            url: /upl_docs_music.html
+            output: web, pdf
+
+          - title: Overworld
+            url: /upl_docs_overworld.html
+            output: web, pdf
+
+          - title: Portal
+            url: /upl_docs_portal.html
+            output: web, pdf
+
+          - title: Prompt
+            url: /upl_docs_prompt.html
+            output: web, pdf
+
+          - title: Push
+            url: /upl_docs_push.html
+            output: web, pdf
+
+          - title: Random
+            url: /upl_docs_random.html
+            output: web, pdf
+
+          - title: RemoveItem
+            url: /upl_docs_removeitem.html
+            output: web, pdf
+
+          - title: ResetLocalEncounters
+            url: /upl_docs_resetlocalencounters.html
+            output: web, pdf
+
+          - title: RestoreParty
+            url: /upl_docs_restoreparty.html
+            output: web, pdf
+
+          - title: Say
+            url: /upl_docs_say.html
+            output: web, pdf
+
+          - title: SetLocalEncounters
+            url: /upl_docs_setlocalencounters.html
+            output: web, pdf
+
+          - title: SetMovement
+            url: /upl_docs_setmovement.html
+            output: web, pdf
+
+          - title: SetTile
+            url: /upl_docs_settile.html
+            output: web, pdf
+
+          - title: Shop
+            url: /upl_docs_shop.html
+            output: web, pdf
+
+          - title: Sound
+            url: /upl_docs_sound.html
+            output: web, pdf
+
+          - title: Step
+            url: /upl_docs_step.html
+            output: web, pdf
+
+          - title: Storage
+            url: /upl_docs_storage.html
+            output: web, pdf
+
+          - title: Teleport
+            url: /upl_docs_teleport.html
+            output: web, pdf
+
+          - title: Unfade
+            url: /upl_docs_unfade.html
+            output: web, pdf
+
+          - title: UpdateTiles
+            url: /upl_docs_updatetiles.html
+            output: web, pdf
+
+          - title: Wait
+            url: /upl_docs_wait.html
             output: web, pdf
 # Copyright 2021 Google LLC

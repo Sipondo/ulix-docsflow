@@ -93,3 +93,5 @@ if(set.story_chapter > 3){
 }
 ```
 You can also use comparison to check if something is greater than *>* or smaller than *<* a value. In this case, we check if we have progressed past this point in the story yet. If that's the case, we no longer need to do this action.
+
+{% include links.html %}

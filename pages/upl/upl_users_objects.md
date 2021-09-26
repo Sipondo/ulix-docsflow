@@ -64,3 +64,5 @@ Col and Map are the collision- and map-manager respectively. They are used only 
  - **switch&set**<br/>
  While we have not mentioned these before, these are the global storages that **WILL** be saved after the game is closed. You can define them in Ldtk (see Switches&Settables).
  You can access and set the defined switches and settables.
+
+{% include links.html %}

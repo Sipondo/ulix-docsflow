@@ -8,14 +8,14 @@ folder: guide
 summary: Let's view our first level in-game!
 ---
 
-# Viewing our tree in-game
+## Viewing our tree in-game
 Let's pay a visit to our new level. There are two files in your game folder that allow you to run your game:
 - `game.exe` opens the game normally.
 - `develop.bat` compiles the world before opening the game.
 
 You will always have to compile the world before you see any changes made in LDTK come into effect. Run `develop.bat` to compile the world and open your game.
 
-## Getting to our tree
+### Getting to our tree
 If your game is like me, you'll be dropped in the middle of one of the example maps. We haven't yet connected our new map to the game world and thus are not able to normally get to that area. As we are developing the game, however, we can use the developer console in order to teleport to the new area directly.
 
 Pressing **[T]** while in-game opens up the developer console. This is a powerful feature for testing stuff out to bring your world to life, but currently we are only interested in teleporting to our new map.

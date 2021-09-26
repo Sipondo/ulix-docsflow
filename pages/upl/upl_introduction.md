@@ -26,3 +26,5 @@ game: Overworld()
 
 In the [UPL Syntax](upl_syntax.html) we will break down this piece of code into its basic parts, explaining what each part does along the way.
 
+
+{% include links.html %}
