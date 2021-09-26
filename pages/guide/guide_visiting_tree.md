@@ -27,4 +27,6 @@ Teleporting is done simply by entering the level number and pressing **[enter]**
 
 Hooray! Our level works. Make sure to test out the collision and the level depth by moving behind the trees.
 
+Feel free to experiment with your map. You can for example alter it's size and add paths, water and flowers. The rest of the mapping section will expect you to be able to work with layers and go over other concepts.
+
 {% include links.html %}

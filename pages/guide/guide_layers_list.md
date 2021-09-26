@@ -26,7 +26,6 @@ We need to split our level up in many layers, building the game world from the g
 <tr class="header">
 <th>Layer</th>
 <th>Description</th>
-<th>Image</th>
 </tr>
 </thead>
 <tbody>

@@ -53,12 +53,16 @@ entries:
             url: /guide_layers_list.html
             output: web, pdf
 
-          - title: Your first level
+          - title: Starting out - Your first level
             url: /guide_hello_tree.html
             output: web, pdf
 
-          - title: Getting to our tree
+          - title: Starting out - Getting to our tree
             url: /guide_visiting_tree.html
+            output: web, pdf
+
+          - title: Connecting an Instance
+            url: /guide_connecting_instances.html
             output: web, pdf
 
       - title: Scripting Actions
