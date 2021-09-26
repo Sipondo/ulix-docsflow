@@ -53,6 +53,10 @@ entries:
             url: /guide_layers_list.html
             output: web, pdf
 
+          - title: Your first level
+            url: /guide_hello_tree.html
+            output: web, pdf
+
       - title: Writing Actions
         output: web, pdf
 
