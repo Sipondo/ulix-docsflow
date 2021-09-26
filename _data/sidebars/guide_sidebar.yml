@@ -65,11 +65,15 @@ entries:
             url: /upl_syntax.html
             output: web, pdf
 
+          - title: Users
+            url: /upl_users_objects.html
+            output: web, pdf
+
       - title: UPL Documentation
         output: web, pdf
 
         folderitems:
           - title: AddItem
-            url: /upl_additem.html
+            url: /docs_additem.html
             output: web, pdf
 # Copyright 2021 Google LLC
