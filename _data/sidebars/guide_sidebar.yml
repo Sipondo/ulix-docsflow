@@ -44,4 +44,16 @@ entries:
           - title: Navigating LDTK
             url: /guide_navigating_ldtk.html
             output: web, pdf
+
+          - title: Introduction to Layers
+            url: /guide_layers.html
+            output: web, pdf
+
+      - title: Writing Actions
+        output: web, pdf
+
+        folderitems:
+          - title: Test
+            url: /guide_opening_ldtk.html
+            output: web, pdf
 # Copyright 2021 Google LLC

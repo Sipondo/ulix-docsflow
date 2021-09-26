@@ -25,7 +25,7 @@ One of the main features of the LDTK user interface is the toolbar at the left s
 - **Close Project [CTRL+W]:** The exit button.
 
 
-{% include warning.html content="The orange tabs contain most of the delicate internals of our project. The tileset is generally the only tab of the orange tabs you'll need to access. Be careful when operating in these tabs." %}
+{% include warning.html content="The orange tabs contain most of the delicate internals of our project. The tileset tab is generally the only orange tab you'll need to access. Be careful when operating in these tabs." %}
 
 
 
