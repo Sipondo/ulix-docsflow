@@ -57,6 +57,10 @@ entries:
             url: /guide_hello_tree.html
             output: web, pdf
 
+          - title: Getting to our tree
+            url: /guide_visiting_tree.html
+            output: web, pdf
+
       - title: Scripting Actions
         output: web, pdf
 
