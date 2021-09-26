@@ -49,6 +49,10 @@ entries:
             url: /guide_layers.html
             output: web, pdf
 
+          - title: Types of Layers
+            url: /guide_layers_list.html
+            output: web, pdf
+
       - title: Writing Actions
         output: web, pdf
 
