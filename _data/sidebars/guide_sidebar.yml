@@ -49,11 +49,23 @@ entries:
             url: /guide_layers.html
             output: web, pdf
 
-      - title: Writing Actions
+      - title: Scripting Actions
         output: web, pdf
 
         folderitems:
-          - title: Test
-            url: /guide_opening_ldtk.html
+          - title: Introduction to UPL
+            url: /upl_introduction.html
+            output: web, pdf
+
+          - title: UPL Syntax
+            url: /upl_syntax.html
+            output: web, pdf
+
+      - title: UPL Documentation
+        output: web, pdf
+
+        folderitems:
+          - title: AddItem
+            url: /upl_additem.html
             output: web, pdf
 # Copyright 2021 Google LLC
