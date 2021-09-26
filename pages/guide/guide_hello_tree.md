@@ -72,6 +72,30 @@ In my LDTK world level 7 seems to be available. A good name would thus be "L7_He
 Great! We have a level, but it is quite empty. Let's start with adding some ground for our players to walk on.
 Scroll all the way to Ground A and select that layer to start painting the level. I suggest taking one of the above grass tiles to start with.
     
-{% include image.html file="instance_name.png" alt="Instance name" max-width=800 %}
+{% include image.html file="freestyle_drawing.png" alt="Freestyle drawing" max-width=400 %}
+
+I'm not sure if it's my painting skills, but manually filling the entire level with ground tiles is not very efficient. Luckily we have some shortcuts available in LDTK for drawing rectangles and for flood filling. ([H] cheat sheet!). 
+I personally prefer a bit of variety in my grass landscape. By selecting all 5 grass tiles in the top row and enabling Random Mode **[R]** LDTK will randomly sample grass for us.
+
+{% include note.html content="Holding spacebar allows you to move the camera." %}
+
+## Step 4: Build a tree
+Next up is the actual tree! Switch to Structures A and select the tiles that form our tree base. Don't forget to toggle off Random Mode if you're placing the whole base in one go!
+
+{% include image.html file="tree_base.png" alt="Tree base" max-width=400 %}
+
+Now that the tree base has been placed we can add the upper branches which don't have collision. As these should be above the player we should switch to Rooftops A. Crown our tree with the upper tiles to finish our tree!
+
+{% include image.html file="tree_full.png" alt="Tree full" max-width=600 %}
+
+
+## Step 5: Plural
+One lone tree is not going to fill a forest. While you could construct every tree by hand, LDTK provides us with some shortcuts to duplicate what we made, even if it spans multiple layers! As always, the cheat sheet **[H]** provides shortcut information.
+- Select your tree by holding **[shift+alt]** and dragging your left mouse button.
+- Now duplicate your tree by holding **[ctrl+alt]** and dragging your left mouse button to a new location.
+
+{% include image.html file="tree_dupe.png" alt="More trees!" max-width=600 %}
+
+Notice that the new trees are correctly split over the layers as well, ensuring our player (and other entities) can interact with the level correctly.
 
 {% include links.html %}
