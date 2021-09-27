@@ -16,7 +16,7 @@ sequences of actions depending on player choices throughout the game!
 
 ## Say("Hello!")
 
-The following code would start a cinematic, make your character say "Hello!", and then giving control back to the player upon trigger (we will get to triggers later).
+The following code would start a cinematic, make your character say "Hello!", and then giving control back to the player upon [trigger](upl_triggers.html).
 
 ```ruby
 game: Cinematic()

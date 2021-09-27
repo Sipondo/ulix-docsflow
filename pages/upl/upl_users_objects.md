@@ -28,7 +28,7 @@ In the syntax example we can see 2 types of objects:
  - player
  - game
 
-## Users as *owners*
+## Users as *subjects*
 Both of these objects are users in the example. That's not to say they cannot also be used in the function following it. Let's say we want to make the player walk 5 tiles to the right. This can be achieved by making the player both the subject and the object of the function:
 ```ruby
 player: Move(player.x + 5, player.y)
@@ -52,7 +52,7 @@ We have mentioned the *game* object before. This is a special type of object, be
  - **player**<br/>
 The player is not a very special object, except that it is easy to access anywhere using *player*. It has attributes just like any other entity, which can be accessed using the .*attribute_name*. It is highly advised however to not change these attributes without using other UPL functions. (e.g. Move to move the player)
  - **self**<br/>
-When you enter a UPL action, the action is defined within a certain object's trigger. We will explain that further in Triggers, but for now it is import that *self* is this object that contains the action. In case of an OpponentEntity for example, when you interact with the entity, the *on_interact* action begins, which means that *self* now refers to this OpponentEntity.
+When you enter a UPL action, the action is defined within a certain object's trigger. We will explain that further in [Triggers](upl_triggers.html), but for now it is import that *self* is this object that contains the action. In case of an OpponentEntity for example, when you interact with the entity, the *on_interact* action begins, which means that *self* now refers to this OpponentEntity.
  - **target**<br/>
 A UPL action is not necessarily player-exclusive. This means that other objects can also trigger the actions. *target* refers to the object that triggered the event. An entity (could be the player) walking onto a Region (see Mapping Tutorial) is then the *target* in the action defined in the Region's *on_enter* attribute.
  - **local**<br/>

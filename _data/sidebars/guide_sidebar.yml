@@ -81,6 +81,14 @@ entries:
             url: /upl_users_objects.html
             output: web, pdf
 
+          - title: Triggers
+            url: /upl_triggers.html
+            output: web, pdf
+
+          - title: Prefabs
+            url: /upl_prefabs.html
+            output: web, pdf
+
       - title: UPL Documentation A-L
         output: web, pdf
         folderitems:
