@@ -14,6 +14,11 @@ Settables and switches are the way to save your global data in your save file. T
 {% include image.html file="settables.png" alt="settables" max-width=800 %}
 {% include image.html file="switches.png" alt="switches" max-width=800 %}
 
+### Defining Settables&Switches
+
+When you go to the Enums tab in Ldtk and click on Settables or switches, you probably will not see any defined as of yet. You can freely add them by clicking "ADD VALUE". (Green rectangle)
+**IMPORTANT**: When you add a Settable or Switch, Ldtk will automatically capitalise them. But in UPL you **MUST** refer to them in all lower-case characters. (see examples below)
+
 ## Settables
 
 Settables are variables that you can store *anything* in. In the example above, we have defined a *story_chapter* settable, which we can now access in UPL. It is an attribute of the *set* object (see [Users & Objects](upl_users_objects.html)). This means we can now access it to see how far the player has progressed or set it in UPL when the player progresses through the game!
@@ -40,7 +45,8 @@ Switches are similar to settables, but they can only be on or off, or rather: *T
 if(switch.obtained_coat){
 	exit
 }
+# Make the player get the coat
 ```
-Notice that we do not use '==' to compare its value to *True*. Because it is either *True* or *False* we can simply leave out the part we compare it to these values.
+Notice that we do not use '==' to compare its value to *True*. Because it is either *True* or *False* we can simply leave out the part where we compare it to these values.
 
 {% include links.html %}

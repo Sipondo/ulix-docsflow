@@ -27,7 +27,7 @@ All of these triggers are defined within the entities and Regions you place in L
 
 ## *self*
 
-As we've seen in [Users and Objects](upl_users_objects.html), you can refer to a *self* in UPL. This is always the object that contains the triggers that we just mentioned. Keep in mind that you can still refer to this *self* with their *entity_uid*, but this is less flexible.
+As we've seen in [Users and Objects](upl_users_objects.html), you can refer to a *self* in UPL. This is always the object that contains the triggers that we just mentioned. Keep in mind that you can still refer to this *self* with their *entity_uid*.
 ```ruby
 self: Say("Hello!")
 ```

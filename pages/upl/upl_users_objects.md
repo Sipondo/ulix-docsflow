@@ -16,20 +16,30 @@ What we mean by this is that an object can have attributes that can be accessed 
 A user is also an object. The only difference between a user and other objects is that the user is the *subject* of the line of code.
 This means the user is the *ONLY* object that can execute a function call within a line.
 
-## Object types
+## Examples
 
 ```ruby
-game:
-player:
-game:
+game: Cinematic()
+player: Say("Hello!")
+game: Overworld()
 ```
 
 In the syntax example we can see 2 types of objects:
  - player
  - game
 
+```ruby
+set: story_chapter = 3
+self: Move(e_uid.x, e_uid.y + 1)
+```
+
+Here we see another 3 objects: *set*, *self* and *e_uid*. *e_uid* is the *entity_uid* defined when you place an entity in Ldtk. (Green rectangle)
+
+{% include image.html file="entity_uid.png" alt="e uid" max-width=800 %}
+
+
 ## Users as *subjects*
-Both of these objects are users in the example. That's not to say they cannot also be used in the function following it. Let's say we want to make the player walk 5 tiles to the right. This can be achieved by making the player both the subject and the object of the function:
+In the first example above, both *player* and *game* are users. That does not mean they cannot also be used in the function following it. Let's say we want to make the player walk 5 tiles to the right. This can be achieved by making the player both the subject and the object of the function:
 ```ruby
 player: Move(player.x + 5, player.y)
 ```
@@ -39,7 +49,7 @@ player: Move(x + 5, y)
 ```
 This script will achieve the exact same thing. When we don't define the object we want to access, the script will automatically take the user of the line and use their attributes instead.
 
-Let's say now that we want to make a different object walk to that tile 5 to the east of the player to take their spot for a battle. As seen in the mapping tutorial, entities all have an entity_uid that we can use to access them as an object!
+Let's say that we want to make a different object walk to that tile 5 to the east of the player to take their spot for a battle.
 ```ruby
 e_uid: Move(player.x + 5, player.y)
 ```
@@ -50,7 +60,7 @@ Notice that since the entity is the one moving, it has to be the user! The playe
  - **game** <br/>
 We have mentioned the *game* object before. This is a special type of object, because it is exactly what it says: the object that controls the entire game. It is mainly used to switch between the overworld, cinematics, shops, storage and other things that would change the way the player interacts with the game. Notice that the Cinematic() and Overworld() functions are executed by the *game*.
  - **player**<br/>
-The player is not a very special object, except that it is easy to access anywhere using *player*. It has attributes just like any other entity, which can be accessed using the .*attribute_name*. It is highly advised however to not change these attributes without using other UPL functions. (e.g. Move to move the player)
+The *player* object is simply a reference to the entity that the player controls. It functions very similarly to other entities.
  - **self**<br/>
 When you enter a UPL action, the action is defined within a certain object's trigger. We will explain that further in [Triggers](upl_triggers.html), but for now it is import that *self* is this object that contains the action. In case of an OpponentEntity for example, when you interact with the entity, the *on_interact* action begins, which means that *self* now refers to this OpponentEntity.
  - **target**<br/>

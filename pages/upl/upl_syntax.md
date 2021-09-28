@@ -101,9 +101,12 @@ You can also use comparison to check if something is greater than *>* or smaller
 There are 2 Function operator you can use in UPL: '!' and '?'. These characters can be put in front of a line of code.
 ```ruby
 !player: Move(1, 2)
+entity: Move(1, 3)
+```
+The '!' character means that the code will **NOT** wait until the current function is completed to go to the next line. Do notice that UPL is normally completely sequential, meaning every function will wait until it is completely finished before starting the next function. The '!' character is a way around this. In this example, while the player starts moving, we will already examine the *Move* statement following. <br/>
+```ruby
 ?player: Cinematic()
 ```
-The '!' character means that the code will **NOT** wait until the current function is completed to go to the next line. Do notice that UPL is normally completely sequential, meaning every function will wait until it is completely finished before starting the next function. The '!' character is a way around this. In this example, while the player starts moving, we will already examine the *Cinematic* statement following. <br/>
 The '?' character is used when you are not sure the code is going to run into any errors. In this case, we use *Cinematic* but with the player as the user. Normally, this would be the game object. In actuality, the player **CANNOT** do what *game* would do here, so this would result in a crash. The '?' character prevents this from happening, and instead the line of code will be skipped completely. Note: this is not preferrable behaviour, so try to limit the amount of uncertain code like this. A good use case would be the example from before:
 ```ruby
 ?if(self.memory.defeated == True){
@@ -122,7 +125,7 @@ Sometimes code can get pretty confusing, especially if you are working on a proj
 player: Say("Hello!")
 ```
 
-### Prefabs
+## Prefabs
 
 Prefabs are very useful for long sequences of code that you would like to add to a lot of different entities. They actually refer to a file where you saved that code. More about that in [Prefabs](upl_prefabs.html).
 

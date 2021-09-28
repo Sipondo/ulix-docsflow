@@ -25,7 +25,7 @@ self: memory.defeated = True
 game: Overworld()
 ```
 
-The above example shows the UPL action that is */</</<opponent_on_aggro/>/>/>*. This is the action that is automatically generated when you place an OpponentEntity object.
+The above example shows the UPL action that is *\<\<\<opponent_on_aggro\>\>\>*. This is the action that is automatically generated when you place an OpponentEntity object.
 Since this is an action you would want to happen on a lot of different entities, it is saved separately.
 
 ## Save location
