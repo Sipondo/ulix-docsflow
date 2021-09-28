@@ -62,7 +62,7 @@ Global is a storage that will **NOT** be saved when the game is restarted. It is
  - **col&map**<br/>
 Col and Map are the collision- and map-manager respectively. They are used only in very specific situations, in case you want to replace tiles with others or change the collision of a tile.
  - **switch&set**<br/>
- While we have not mentioned these before, these are the global storages that **WILL** be saved after the game is closed. You can define them in Ldtk (see Switches&Settables).
+ While we have not mentioned these before, these are the global storages that **WILL** be saved after the game is closed. You can define them in Ldtk (see [Settables&Switches](upl_sets_switches.html)).
  You can access and set the defined switches and settables.
 
 {% include links.html %}

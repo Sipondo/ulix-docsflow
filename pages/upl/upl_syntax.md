@@ -64,11 +64,11 @@ Sometimes you would want to know where an object is (For more info on objects, s
 ```ruby
 entity: Move(player.x + 1, player.y)
 ```
-Notice that we use *.attribute_name* to access the current x- and y-coordinates of the player. This code will make the *entity* that is the user walk to a position 1 to the right of the player.
+Notice that we use *.attribute_name* (in this case *attribute_name* is *x*!) to access the current x- and y-coordinates of the player. This code will make the *entity* that is the user walk to a position 1 to the right of the player.
 ```ruby
 entity: memory.defeated = True
 ```
-To set an attribute, we first name the attribute we want to assign a value to: *defeated*. To assign a value, use a single *=* followed by the value you want to assign. 
+To set an attribute, we first name the attribute we want to assign a value to: *defeated*. To assign a value, use a single '=' followed by the value you want to assign. 
 *True* and *False* are the simplest, simply saving whether something is true or false. You can also assign numbers and other things:
 ```ruby
 set: story_chapter = 3
@@ -83,6 +83,7 @@ if(self.memory.defeated == True){
     exit
 }
 ```
+Notice that the conditional statement **DOES NOT HAVE A USER**. This is one of the few exceptions to the rule that every line has a user.
 For now, ignore the *self*. We will talk more about that in [Triggers](upl_triggers.html) and [Users and Objects](upl_users_objects.html). Notice that we are now using a double equals sign *==*. This is used for comparing values to see if they are equal. In this case, we check if the entity has an attribute that says it has already been defeated, and *exit* if that's the case. *exit* immediately ends the script. Make sure that you are not in a Cinematic when you use *exit* or the player will not be able to move!
 The *{}* is for when you would want to execute multiple lines conditionally. Everything within the brackets will **ONLY** execute if the condition within the parentheses is met!
 
@@ -95,9 +96,9 @@ You can also use comparison to check if something is greater than *>* or smaller
 
 ## Special characters
 
-### Escape characters
+### Function operators
 
-There are 2 escape characters you can use in UPL: '!' and '?'. These characters can be put in front of a line of code.
+There are 2 Function operator you can use in UPL: '!' and '?'. These characters can be put in front of a line of code.
 ```ruby
 !player: Move(1, 2)
 ?player: Cinematic()
@@ -113,12 +114,22 @@ The OpponentEntities do not necessarily have the *defeated* attribute in their m
 
 ### Comments
 
-Finally, sometimes code can get pretty confusing, especially if you are working on a project with multiple people. If you want to make some notes to clarify a piece of code, you can simply start your line with a '#' character
+Sometimes code can get pretty confusing, especially if you are working on a project with multiple people. If you want to make some notes to clarify a piece of code, you can simply start your line with a '#' character
 
 ```ruby
 # This code will not be executed
 # The next line will make the player say "Hello!"
 player: Say("Hello!")
 ```
+
+### Prefabs
+
+Prefabs are very useful for long sequences of code that you would like to add to a lot of different entities. They actually refer to a file where you saved that code. More about that in [Prefabs](upl_prefabs.html).
+
+```ruby
+<<<opponent_on_aggro>>>
+```
+
+The way to refer to these external UPL files is using *\<\<\<***filename***\>\>\>*. These prefabs are especially useful for more advanced UPL users.
 
 {% include links.html %}

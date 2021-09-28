@@ -25,7 +25,7 @@ There are 5 mainly used triggers:
 
 All of these triggers are defined within the entities and Regions you place in Ldtk. Some of these are prefabricated (prefab for short) when you place the entity, such as *\<\<\<opponent_on_aggro\>\>\>* (see [prefabs](upl_prefabs.html)). Be careful when changing these, because they are usually integral to the functionality of the entity. Note however, that you could also battle a Civilian entity if you would so desire. They do not have an aggro range or *on_aggro* trigger, but there is no problem with defining a battle within the civilian's *on_interact* trigger for example.
 
-### *self*
+## *self*
 
 As we've seen in [Users and Objects](upl_users_objects.html), you can refer to a *self* in UPL. This is always the object that contains the triggers that we just mentioned. Keep in mind that you can still refer to this *self* with their *entity_uid*, but this is less flexible.
 ```ruby

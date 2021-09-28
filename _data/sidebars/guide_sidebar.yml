@@ -77,12 +77,16 @@ entries:
             url: /upl_syntax.html
             output: web, pdf
 
-          - title: Users
+          - title: Users & Objects
             url: /upl_users_objects.html
             output: web, pdf
 
           - title: Triggers
             url: /upl_triggers.html
+            output: web, pdf
+
+          - title: Settables & Switches
+            url: /upl_sets_switches.html
             output: web, pdf
 
           - title: Prefabs
